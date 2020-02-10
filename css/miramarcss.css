@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(../mirm.jpg);
+	background-size: cover;
+}
+h1{
+	float: right;
+	margin-right: 200px;
+	margin-top: 50px;
+	color: #fff;
+}
+p{
+	float: right;
+	margin-right: 60px;
+	margin-top: -815px;
+	color: #fff;
+	font-size: 22px;
+}
+video{
+	width: 24%;
+	height: 20%;
+    float: right;
+	margin-right: 105px;
+	margin-top: -620px;
+}
+div{
+	background-color: #fff;
+	width: 360px;
+	height: 350px;
+	float: right;
+	margin-right: 105px;
+	margin-top: -390px;
+}
+div p {
+	margin: 25px;
+	margin-top: 45px;
+	color: #000;
+	font-size: 19px;
+	text-align: left;
+}

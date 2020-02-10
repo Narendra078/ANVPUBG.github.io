@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(../zharki.png);
+	background-size: cover;
+}
+h1{
+   text-align: center;
+   margin-top: 17px;
+   font-size: 45px;
+   }

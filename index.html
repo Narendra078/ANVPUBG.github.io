@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>narendra</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO\Desktop\New folder (2)\css\narendrastyle.css">
+</head>
+<body>
+	<script type="text/javascript">
+		var i=0;
+		var time=2000;
+		var images=[];
+
+		images[0]="rg.png";
+		images[1]="domi.jpeg";
+		images[2]="payload.jpg";
+		images[3]="paywar.jpeg"
+		images[4]="tdmruins.jpeg"
+		images[5]="tdm.jpeg";
+		images[6]="std.jpg";
+
+		function changeimage() {
+			document.slide.src=images[i];
+
+			if (i < images.length - 1) {
+				i++;
+			}else{
+				i=0;
+			}
+			setTimeout("changeimage()",time);
+		}
+		window.onload=changeimage;
+	</script>
+      <div>
+      	<nav class="navbar">
+      		<span class="navbar-toggle" id="js-navbar-toggle">
+      		<i class="fas fa-bars"></i>
+      		</span>
+      		<ul>
+			<li><a href="#">HOME</a></li>
+			<li class="active"><a href="gallery.html">GALLERY</a></li>
+			<li><a href="#aboutme">ABOUT ME</a></li>                          
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+      	</nav>
+      </div>
+<section class="squad">
+<p><b style="font-size: 30px; color: #daa520">Player Unknown's Battleground</b> is an online multiplayer battle royale game <br>in which 100 players landed in the abandoned island<br>who kill other players and the <br>last player or a team alive wins the match and get the title   <br><b style="color: red; font-size: 35px;">"winner winner chicken dinner".</b></br></p>
+</section>
+<div class="maps">
+		<div class="heading">
+			<h1>CLASSIC</h1>
+			</div>
+	  <div class="mp">
+	    <div class="map">
+			<a href="erang.html">
+			<img src="m12.png">
+		    </a>
+		</div>
+		<div class="map">
+			<a href="sanhok.html">
+			<img src="m22.png">
+		 </a>
+		</div>
+		<div class="map">
+			<a href="miramar.html">
+			<img src="m32.jpg">
+		 </a>
+		</div>
+		<div class="map">
+			<a href="vikendi.html">
+			<img src="m42.jpg">
+		  </a>
+		</div>
+	</div>
+	</div>
+		<section class="vehical">
+		<div>
+			<h1> PUBG VEHICLES</h1>
+			<p>Vehicles will make easier to move <br>around the map, but at the same <br>time will attract the attention of <br>other players.</p>
+			<img src="ba.jpg">
+            <marquee class="gif">
+		    <img src="2.gif">
+	        </marquee>
+		</div>
+	</section>
+ 
+   <section>
+   	    <div class="three">
+   	    	<div class="weap">
+   	    		<h1>WEAPONS</h1>
+   	    		<img src="weapon2.jpg">
+   	    		<p>Weapons are used to kill or knockout an enemy.<br>There are different types of weapons are available<br>
+   	    		in pubg like pistols , Assault rifles , Sub machine guns , <br>snipers , light machine guns , shortguns etc.</p>
+   	    	</div>
+   	    </div>
+   </section>
+   <div class="evo">
+   		<div class="evoh">
+   			<h1>EVOGROUND</h1>
+   		</div>
+   		<div class="slideshow">
+   			<img name="slide" width="65%">
+   		</div>
+   </div>
+   <div class="aboutme">
+   	<a name="aboutme"></a>
+   	<div>
+   		<h1>ABOUT ME</h1>
+   		<p>Hi, I am A.Narendra Verma student of Computer Science Engineering at<br> SRM University, Chennai.<br>
+   			My Ingame name is <b>Aktsk廴Kakashi</b> and ID:5190269813.
+   		<br>I made this website with HTML, CSS and Javascript.</p>
+   	</div>
+ 
+   </div>
+     	<div class="contact">
+   		<a name="contact"></a>
+   		<h1>CONTACT ME</h1>
+   		 <p> Mail: nv3745337453@gmail.com<br>
+   			Mobile no.:+919176684804</p>
+   	</div>
+</body>
+</html>

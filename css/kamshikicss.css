@@ -1,0 +1,9 @@
+body{
+	background-image: url(../kameshki.png);
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+	margin-top: 17px;
+}

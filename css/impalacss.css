@@ -1,0 +1,10 @@
+body{
+	background-image: url(../impala.png);
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+	margin-top: 17px;
+	color: #fff;
+}
